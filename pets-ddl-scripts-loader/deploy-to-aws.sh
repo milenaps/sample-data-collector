@@ -1,0 +1,1 @@
+aws lambda update-function-code --function-name pets-ddl-scripts-loader --zip-file fileb://pets-ddl-scripts-loader.zip

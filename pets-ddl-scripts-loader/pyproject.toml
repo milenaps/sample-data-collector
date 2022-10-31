@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pets-ddl-scripts-loader"
+version = "0.1.0"
+description = ""
+authors = ["milenaps"]
+readme = "README.md"
+packages = [{include = "pets_ddl_scripts_loader"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+psycopg2-binary = "^2.9.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
